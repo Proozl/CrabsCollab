@@ -18,6 +18,12 @@ function crabs ()
     thetaCrab = -pi/2;
     sizeCrab = 50;
 
+   %Intitalize Jelly location, heading and size
+   xJelly = 1000;
+   yJelly = 1200;
+   thetaJelly = -pi/2;
+   sizeJelly = 50;
+
   %*********************************************************
   % Put your call to drawCapt() here ..... You must give drawCapt its
   % input and output arguments.
@@ -25,7 +31,7 @@ function crabs ()
   %*******************************************************
   captGraphics = drawCapt(xCapt, yCapt,thetaCapt,sizeCapt)
   %crabGraphics = drawCrab(xCrab, yCrab, thetaCrab, sizeCrab)
-
+  jellyGraphics = drawJelly(xJelly, yJelly, thetaJelly, sizeJelly)
   %initial command
   cmd = "null";
 
