@@ -22,7 +22,7 @@ function crabs ()
    xJelly = 1000;
    yJelly = 1200;
    thetaJelly = -pi/2;
-   sizeJelly = 50;
+   sizeJelly = 75;
 
   %*********************************************************
   % Put your call to drawCapt() here ..... You must give drawCapt its
